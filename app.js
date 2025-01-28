@@ -95,7 +95,7 @@ function viewStock(symbol, stocks) {
       document.querySelector('#stockSector').textContent = stock.sector;
       document.querySelector('#stockIndustry').textContent = stock.subIndustry;
       document.querySelector('#stockAddress').textContent = stock.address;
-      document.querySelector('#logo').src = '⁠ logos/${symbol}.svg'⁠;
+      document.querySelector('#logo').src = 'logos/${symbol}.svg';
   }
 }
   });
